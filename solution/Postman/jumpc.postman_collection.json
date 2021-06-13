@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "2527a360-8f92-4e56-b09f-c66e9c3baf36",
+		"name": "jumpc",
+		"description": "    ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hash",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hash post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"password\":\"angrymonkey\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8088/hash",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8088",
+					"path": [
+						"hash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hashGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8088/hash/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8088",
+					"path": [
+						"hash",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "statsGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8088/stats",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8088",
+					"path": [
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shutdown",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
